@@ -1,0 +1,587 @@
+#form
+{
+    /* float:right;
+    width: 40%;
+    margin-top: 50px; */
+    float:left;
+    left: 100px;
+    /* left: 50px; */
+    width: 45%;
+    margin-top: 40px;
+    
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+	margin: 0;
+    /* width: 100%; */
+	padding: 0;
+	border: 0;
+	font-size: 100%; 
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+.main_wrapper
+{
+    width: 1000px;
+    height:auto ;
+    margin :auto;
+    /* background:grey; */
+    background:white; 
+}
+.header_wrapper
+{
+    width: 1000px;
+    height: 100px; 
+    margin :auto;
+    background:white;
+
+    /* list-style: none;
+    box-decoration-break: clone; */
+    background:white;
+    color:white;
+    
+}
+.header_logo
+{
+    float: left;
+    width: 200px; 
+    /* height: 1000px; */
+    padding :25px;
+    /* right: 600vh; */
+    
+}
+#form input
+{
+    padding:8px;
+}
+#form input[type=text]
+{
+    width:75%;
+}
+.content_wrapper
+{
+    width: 1000px;
+    margin: auto;
+    /* background: rgb(255, 0, 0); */
+    background: white;
+}
+.shopping_cart_c
+{
+    background: white;
+    padding: 15px;
+}
+.shopping_cart_c table img
+{
+    width:80px;
+    height:60px;
+    padding: 0 5px 0 10px;
+}
+.shopping_cart_c input[type=submit],.shopping_cart_c button{
+    /* background:#31eb69; */
+    background:red;
+    
+    color:white;
+    padding:5px 10px;
+    /* border:0.01px solid #31eb69; */
+    border:0.01px solid red;
+}
+.shopping_cart_c input[type=submit]:hover
+{
+    /* background:#96fab4;  */
+    background:#ab0202; 
+}
+.shopping_cart_c button:hover
+{
+    /* background:#96fab4; */
+    background:#ab0202;
+}
+#Shopping_cart
+{
+    /* background: #31eb69; */
+    background: red;
+}
+.cart img
+{
+    width: 30px;
+}
+.cart
+{
+    float:left;
+    margin:5px 10px 0px 15px;
+    cursor:pointer;
+    height: 40px;
+    padding-top: 7px;
+    position: relative;
+    top: 30px;
+    right: 20px;
+    left: -20px;
+    width: 60px;
+    text-align: center;
+    z-index: 10000;
+}
+.cart ul
+{
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    list-style: none;
+    position: relative;
+    width: none;
+    z-index: 1;
+}
+.register_login
+{
+    float:left;
+    
+    width: 0px;
+    margin: 10px 0px 0px 30px;
+}
+.register_login a
+{
+    text-decoration: none;
+}
+.login
+{
+    position: relative;
+    top:-55px;
+    left: 400px;
+    right: 30px;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 10px 0px 10px;
+    margin: 0;
+    color: red;
+    cursor: pointer;
+    position: relative;
+    display:inline;
+    border:0.1px solid rgb(247, 7, 7);
+    border-radius: 1.5px;
+}
+.login a{color: rgb(247, 7, 7);}
+.register
+{
+    position: relative;
+    top: -90px;
+    float: left;
+    left: 300px;
+    right: 15px;
+    height: 35px;
+    padding: 0px 10px 0px 10px;
+    margin: 0;/*px 0px 0px 7px */
+    cursor: pointer;
+    position:relative;
+    display: inline;
+    border: 0.1px;
+    border-radius: 2px;
+    background-color: red;
+    font-family: Cambria;
+}
+#profile img
+{
+    width:40px;
+    height:40px;
+    position:relative;
+    top:-50px ;
+    right:-200px;
+    border-radius: 50%;
+}
+#profile
+{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    top: 5px;
+    margin-left: -20px;
+}
+#profile ul
+{
+    list-style:none;
+    position: relative;
+}
+#profile ul a
+{
+    line-height: 35px;
+    color: black;
+    text-decoration: none;
+}
+#profile ul a:hover
+{
+   text-decoration: underline; 
+}
+#profile ul li ul 
+{
+    position: absolute;
+    top: 5px;
+    right: -140px;
+    /* white-space: nowrap; */
+   
+    background: white;
+    /* width: auto; */
+    width: 150px;
+    height: 70px;
+    z-index: 11;
+    display: none;
+}
+#profile ul li ul li a
+{
+    padding: 2px 25px 2px 15px;
+}
+.user_container
+{
+    /* width:100%;
+    float:left; */
+    padding:20px;
+}
+.user_content 
+{
+    width:73%;
+    float:left;
+}
+.user_sidebar
+{
+    width:25%;
+    float:left;
+    background: white;
+    margin-left:19px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2), 0 2px 10px 0 rgba(0,0,0,0.19);
+    background: white;
+}
+.user_image img
+{
+    width:240px;
+    height:150px;
+}
+.user_sidebar ul
+{
+    list-style:none;
+    padding:15px;
+    width:auto;
+    float:left;
+} 
+.user_sidebar ul li
+{
+    padding: 3px 0;
+}
+.user_sidebar a
+{
+    color:rgba(0,0,0,0.5);
+    padding:8px;
+    margin:5px;
+    font-size:20px;
+    text-decoration:none;
+}
+.user_sidebar a:hover 
+{
+    color:red;
+    font-weight:bolder;
+    text-decoration:underline;
+}
+.menu_bar
+{
+    /* hada */
+    width: 1130px;
+    /* right: 5000px; */
+    height: 50px;
+    /* background: rgb(12, 12, 12); */
+    background: white;
+    border:0.1px solid black;  
+}
+.menu_bar a
+{
+    /* color:white; */
+    color: black;
+    /* font-family: Comic Sans MS; */
+}
+#menu
+{
+    padding: 0;
+    margin:0;
+    line-height: 40px; 
+   
+    float: left;
+    
+}
+#menu li
+{
+    list-style: none;
+    display: inline;
+    float:left;
+}
+#menu ul
+{
+    float: left;
+}
+#menu a
+{
+    color:gray;
+    text-decoration: none;
+    /* taba3od */
+    padding: 20px;
+    margin: auto;
+    font-size: 18px;
+}
+#menu a:hover
+{
+    color: red;
+    text-decoration: underline;
+    font-weight:bolder;
+}
+#sidebar
+{
+    width: 200px;
+    background: white;
+    float: left;
+    height: auto;
+}
+#sidebar_title
+{
+    background: white;
+    color: red;
+    font-size: 20px;
+    /* font-family: arial; */
+    /* font-family: Century Gothic; */
+    font-family: Comic Sans MS;
+    padding: 10px; 
+    text-align: center;
+   
+}
+#cats
+{
+    text-align: center;
+}
+#cats li
+{
+    list-style: none;
+    margin: 5px;
+}
+#cats a
+{
+    color: rgb(12, 12, 12);
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Comic Sans Ms;   
+}
+#cats a:hover
+{
+    color: red;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#box
+{
+    
+    width: 1000px;
+    float: right;
+    background:white;
+}
+#BoiteProduit
+{
+    /* width: 780px; */
+    width: 1000px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+#single_pro
+{
+    float: left;
+    margin-left: 30px;
+    padding: 10px;
+} 
+
+#single_pro button 
+{
+   /* border:2px solid black; */
+   /* background: #42f58d; */
+   background: red;
+   color: white;
+  border: white;
+   height: 30px;
+}
+#single_pro h3
+{
+   /* border:2px solid black; */
+  
+   color: black;
+   font-size: 15px;
+   
+}
+.cart #notification_cart
+{
+    background: red;
+    color: white;
+    position: absolute;
+    top:-5px;
+    left:40px;
+    padding: 1px 3px 1px 3px;
+}
+/* _____________________________menu_________________________ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.side-bar{
+    background: rgba(255, 255, 255, 0.1);
+    /* background: black; */
+    /* background: black; */
+    backdrop-filter: blur(15px);
+    width: 290px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    overflow-y: auto;
+    transition: 0.6s ease;
+    transition-property: left;
+    /* opacity: 0.3; */
+}
+.side-bar .menu{
+    width: 100%;
+    margin-top: 80px;
+}
+.side-bar .menu{
+    width: 100%;
+    margin-top: 80px;
+}
+.side-bar .menu .item a{
+    /* color: rgb(7, 7, 7); */
+    /* color: white; */
+      color: black;
+    /* background: #8621F8;  */
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 60px;
+}
+.side-bar .menu .item a:hover{
+    /* background: #8621F8;  */
+    /* background: #e0d8eb; */
+    background: red;
+    /* transition: 0.3s ease; */
+}
+/* #mySidenav a:hover{
+    background: #8621F8; 
+    transition: 0.3s ease;
+} */
+.side-bar .menu .item a .dropdown{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    transition: 0.3s ease;
+}
+.side-bar .menu .item .sub-menu{
+    background: rgba(255, 255, 255, 0.1);
+    display: none;
+}
+/*ghhhhhhhhhhhh*/
+.side-bar .menu .item .sub-menu a{
+ padding-left: 80px;
+}
+
+.side-bar .menu .item .sub-menu a #ref a{
+    padding-left: 80px;
+   }
+
+.rotate{
+    transform: rotate(90deg);
+}
+
+.close-btn{
+     position: absolute;
+     /* color: black; */
+     /* color: white; */
+     color: black;
+     font-size: 20px;
+     right: 0;
+     margin: 25px;
+     cursor: pointer;
+}
+.menu-btn{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    margin: 25px;
+    cursor: pointer;
+    left: 100px;
+    top: 25px;
+}
+.side-bar.active{
+    left: 0;
+}
+/* _____________________________menu_________________________ */
+.login_box .register_box
+{
+    width:100%;
+    float:left;
+    padding:15px;
+    background: white;
+} 
+
+.login_box input[type=text], .login_box input[type=password], .login_box input[type=email],.register_box input[type=text], .register_box input[type=password],.register_box input[type=email]
+{
+    width:60%;
+    /* padding: 3px 10px; */
+    padding: 3px 10px;
+    margin: 8px 0;
+}
+.login_box input[type=submit], .register_box input[type=submit]
+{
+    padding: 10px 20px;
+    background: red;
+    border:0.01px solid red;
+    color: white;
+   
+}
+/* .register_box
+{
+    background: white;
+    background: yellow;
+} */
+.register a
+{
+    color:white;
+}
+.register_box select
+{
+    width:408;
+    padding:3px 10px;
+    margin:5px 0;
+}
+.register_box input[type=file]
+{
+    margin:5px 0;
+}
+#alert
+{
+    height: auto;
+    width: 100%;
+    background:  #ee05503b;
+    padding: 0 15px;
+    font-size: 19px;
+    line-height: 40px;
+    margin: 10px 0;
+    color: #000;
+    border-radius: 4px;
+}
+   
+
